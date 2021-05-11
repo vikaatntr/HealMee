@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">HealMe!</string>
+    <string name="how_do_you_feel_now">How do you feel now?</string>
+    <string name="badly">Badly</string>
+    <string name="kamu_merasakan_perasaan_buruk_hari_ini">Kamu merasakan perasaan buruk hari ini</string>
+    <string name="close">Close</string>
+    <string name="fine">Fine</string>
+    <string name="kamu_merasakan_perasaan_baik_hari_ini">Kamu merasakan perasaan baik hari ini</string>
+    <string name="well">Well</string>
+    <string name="kamu_merasakan_perasaan_sangat_baik_hari_ini">Kamu merasakan perasaan sangat baik hari ini</string>
+    <string name="bahagia">Bahagia</string>
+    <string name="kamu_merasakan_perasaan_bahagia_hari_ini">Kamu merasakan perasaan bahagia hari ini</string>
+    <string name="buruk">Buruk</string>
+    <string name="biasa">Biasa</string>
+    <string name="kamu_merasakan_perasaan_biasa_hari_ini">Kamu merasakan perasaan biasa hari ini</string>
+    <string name="baik">Baik</string>
+</resources>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_login2"
+    tools:context=".login">
+
+    <ImageView
+        android:id="@+id/password_image"
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:src="@drawable/pict_login"
+        android:layout_marginTop="120dp"/>
+
+    <TextView
+        android:id="@+id/text_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/password_image"
+        android:text="Login"
+        android:fontFamily="@font/redhands"
+        android:textSize="35sp"
+        android:paddingLeft="20dp"
+        android:layout_marginBottom="-20dp"
+        android:textColor="#6385DC"/>
+
+    <LinearLayout
+        android:id="@+id/layout_1"
+        android:layout_width="match_parent"
+        android:layout_height="420dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignBottom="@+id/text_login"
+        android:background="@drawable/background_round2"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:textColorHint="#000"
+            android:layout_marginTop="30dp">
+
+            <EditText
+                android:id="@+id/inputEmail"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/bg_input"
+                android:hint="Username"
+                android:paddingLeft="10dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textColor="#000"
+                android:textColorHint="#000"
+                android:drawablePadding="10dp"
+                android:drawableTint="#000"
+                android:textSize="15sp"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:textColorHint="#000"
+            android:layout_marginTop="30dp">
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/bg_input"
+                android:hint="Password"
+                android:paddingLeft="10dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textColor="#000"
+                android:textColorHint="#000"
+                android:drawablePadding="10dp"
+                android:drawableTint="#000"
+                android:textSize="15sp"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="right"
+            android:text="Lupa Password?"
+            android:textColor="#000"
+            android:paddingRight="30dp"
+            tools:ignore="RtlCompat" />
+
+        <Button
+            android:id="@+id/button_login"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="Login"
+            android:fontFamily="@font/redhands"
+            android:textColor="#FFFFFF"
+            android:textAllCaps="false"
+            android:background="@drawable/custom_button"
+            />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
